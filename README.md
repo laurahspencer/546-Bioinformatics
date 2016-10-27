@@ -9,12 +9,12 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
 
 #### Repository Structure:  
 546-Bioinformatics  
-* **.gitignore**              ---- files >100MB are listed in this file, and thus not uploaded to the GitHub cloud.
-* **2016-10_Geo-Ann-Project** ---- _Files specific to the geoduck genome annotation project_  
-  * **analyses**              ---- _results from blasting and other data manipulation_
-  * **data**                  ---- _raw data, and data subsets_
-  * **images**                ---- all images associated with this project
-  * **Jupyter-Notebooks**     ---- _record of project steps for record and replication; includes a "Blasting-101" notebook_
+* **.gitignore**: files >100MB are listed in this file, and thus not uploaded to the GitHub cloud.
+* **2016-10_Geo-Ann-Project**: _Files specific to the geoduck genome annotation project_  
+  * **analyses**:  _results from blasting and other data manipulation_
+  * **data**: _raw data, and data subsets_
+  * **images**: all images associated with this project
+  * **Jupyter-Notebooks**: _My primary notebook used for this project is the [Geoduck Annotation Project](546-Bioinformatics/2016-10_Geo-Ann-Project/Jupyter-Notebooks/Geoduck Annotation Project.ipynb); refer to this for project record and replication stpes; folder also includes a "Blasting-101" notebook_
   * **scripts**               ---- _Scripts used in this project; including a helpful reference document_
 
 #### Project Timeline, by week #  
