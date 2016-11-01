@@ -32,12 +32,15 @@ dim(deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ])
 
 tmp <- deseq2.res
 # The main plot
-plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="darkgray",
+plot(tmp$baseMean, tmp$log2FoldChange, pch=20, cex=0.45, ylim=c(-3, 3), log="x", col="lightblue",
      main="DEG Virus Exposure  (pval <= 0.05)",
      xlab="mean of normalized counts",
      ylab="Log2 Fold Change")
 # Getting the significant points and plotting them again so they're a different color
 tmp.sig <- deseq2.res[!is.na(deseq2.res$padj) & deseq2.res$padj <= 0.05, ]
-points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="yellow")
+points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="gold1")
 # 2 FC lines
-abline(h=c(-1,1), col="red")
+abline(h=c(-1,1), col="lightsalmon")
+
+write.table(tmp.sig, "../analyses/Phel_DEGlist.tab", row.names= T)
+?merge
