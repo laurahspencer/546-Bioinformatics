@@ -23,5 +23,25 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
 2. Get comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
 3. Begin working with data; use blast to compare transcriptome to genome; end goal -> have a blast output file
 4. Understand contents of blast output file; learn how to cross-walk the annotated transcriptome against the blast output file to identify protein-sequencing DNA - aka what program(s) to use? 
-5. Annotate! 
-6. ...
+5. Re-blast based on feedback; format data, visualize feature track via IGV, combine sequence info with Contig & Scaffold ID's
+6. Merge annotated transcriptome data with my data to connect transcriptome protein/gene ontology data 
+7. ID miRNA and/or lncRNA
+8. TBD
+9. TBD
+10.TBD
+
+#### Data manipulation workflow
+
+Pare down genome, identify locations that match transcriptome sequences:  
+--> Subset genome for >70k bp scaffolds  
+----> Blast transcriptome against genome scaffolds  
+------> **Product: tab file showing where transcriptome sequences match sequences in the >70k scaffolds, denoted by scaffold ID &     contig ID (no bp or protein ID info)**
+
+Merge all data:  
+--> reformat genome file to tabular  
+----> merge genome file with blastn results; only keep rows with common contigs  
+------> Connect contig ID's OR bp sequences with known coding proteins identifed in annotated transcriptome   
+--------> Blast unknown sequences against UniProt database to try to ID genes not found in the transcriptome  
+----------> Identify miRNA sequences  
+------------> Identify lncRNA sequences   
+--------------> Product Goal: data file containing Scaffold ID +  Contig ID + BP seq + Uniprot ID + Animal Source + Gene Ontology Data
