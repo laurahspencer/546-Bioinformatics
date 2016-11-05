@@ -1,7 +1,7 @@
 ### Annotating large scaffolds in _Panopea generosa_ genome
 ##### Project repository for FISH-546-Bioinformatics
 This is the repository housing my files pertinent to the Autumn 2016 FISH 546 course on Bioinformatics, taught by Dr. Steven Roberts.  The course syllabus: 
-  "This course will teach core computing skills as well as project specific approaches. Each student will be developing and completing a     research project targeting journal article submission by the end of the Quarter. There will be an emphasis on developing habits that       increase automation which in turn will facilitate reproducibility. The course primary course platform will be GitHub, with each student   creating their own repository."
+  "This course will teach core computing skills as well as project specific approaches. Each student will be developing and completing a research project targeting journal article submission by the end of the Quarter. There will be an emphasis on developing habits that increase automation which in turn will facilitate reproducibility. The course primary course platform will be GitHub, with each student creating their own repository."
 
 #### My class project:
 * **End Goal:** To annotate a small portion of the _Panopea generosa_ (geoduck) genome.  
@@ -19,6 +19,7 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
   * **scripts**               ---- _Scripts used in this project; including a helpful reference document_
 
 #### Project Timeline, by week #  
+
 1. Learn basics of command-line operation, data mangement & manipulation & project tracking;  
 2. Get comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
 3. Begin working with data; use blast to compare transcriptome to genome; end goal -> have a blast output file
@@ -26,18 +27,19 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
 5. Re-blast based on feedback; format data, visualize feature track via IGV, combine sequence info with Contig & Scaffold ID's
 6. Merge annotated transcriptome data with my data to connect transcriptome protein/gene ontology data 
 7. ID miRNA and/or lncRNA
-8. TBD
-9. TBD
-10.TBD
+8. Visualize data (TBD)
+9. TBD  
+10. TBD
 
-#### Data manipulation workflow
 
-Pare down genome, identify locations that match transcriptome sequences:  
+### Data manipulation workflow
+
+**Pare down genome, identify locations that match transcriptome sequences:**  
 --> Subset genome for >70k bp scaffolds  
 ----> Blast transcriptome against genome scaffolds  
 ------> **Product: tab file showing where transcriptome sequences match sequences in the >70k scaffolds, denoted by scaffold ID &     contig ID (no bp or protein ID info)**
 
-Merge all data:  
+**Merge all data:**  
 --> reformat genome file to tabular  
 ----> merge genome file with blastn results; only keep rows with common contigs  
 ------> Connect contig ID's OR bp sequences with known coding proteins identifed in annotated transcriptome   
