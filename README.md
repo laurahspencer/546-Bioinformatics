@@ -15,7 +15,7 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
   * **analyses**:  _results from blasting and other data manipulation_
   * **data**: _raw data, and data subsets_
   * **images**: all images associated with this project
-  * **Jupyter-Notebooks**: _My primary notebook used for this project is the [01 Geoduck Annotation Project](546-Bioinformatics/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01 Geoduck Annotation Project.ipynb); refer to this for project record and replication steps; folder also includes a "Blasting-101" notebook_
+  * **Jupyter-Notebooks**: _My primary notebook used for this project is the [01 Geoduck Annotation Project](https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Geoduck%20Annotation%20Project.ipynb); refer to this for project record and replication steps; folder also includes a "Blasting-101" notebook_
   * **scripts**               ---- _Scripts used in this project; including a helpful reference document_
 
 #### Project Timeline, by week #  
