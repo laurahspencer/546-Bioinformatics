@@ -1,0 +1,72 @@
+BLASTN 2.5.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: 2CF7V03T01R
+
+
+Database: Nucleotide collection (nt)
+           39,818,693 sequences; 131,108,962,077 total letters
+Query= 
+Length=50
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+KM580067.1  Panopea generosa mitochondrion, complete genome        21.1    0.45 
+
+ALIGNMENTS
+>KM580067.1 Panopea generosa mitochondrion, complete genome
+Length=15585
+
+ Score = 21.1 bits (22),  Expect = 0.45
+ Identities = 11/11 (100%), Gaps = 0/11 (0%)
+ Strand=Plus/Minus
+
+Query  3      AATAATAAAAT  13
+              |||||||||||
+Sbjct  10306  AATAATAAAAT  10296
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 6, 2016  9:37 AM
+  Number of letters in database: 28,669
+  Number of sequences in database:  19
+
+Lambda      K        H
+   0.634    0.408    0.912 
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+Matrix: blastn matrix:2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 19
+Number of Hits to DB: 0
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 50
+Length of database: 28669
+Length adjustment: 14
+Effective length of query: 36
+Effective length of database: 28403
+Effective search space: 1022508
+Effective search space used: 1022508
+A: 0
+X1: 22 (20.1 bits)
+X2: 33 (29.8 bits)
+X3: 110 (99.2 bits)
+S1: 18 (17.5 bits)
+S2: 18 (17.5 bits)
+
+
+
+

@@ -1,0 +1,288 @@
+BLASTN 2.5.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: 2CBM7WT801R
+
+
+Database: Nucleotide collection (nt)
+           39,682,723 sequences; 130,661,863,065 total letters
+Query= 
+Length=50
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+XM_011423575.1  PREDICTED: Crassostrea gigas uncharacterized L...  30.1    2.8  
+XM_011423574.1  PREDICTED: Crassostrea gigas uncharacterized L...  30.1    2.8  
+XM_011424007.1  PREDICTED: Crassostrea gigas cyclic nucleotide...  28.3    9.7  
+XM_011416830.1  PREDICTED: Crassostrea gigas uncharacterized L...  28.3    9.7  
+XM_011414619.1  PREDICTED: Crassostrea gigas phosphatidylglyce...  28.3    9.7  
+XM_011443177.1  PREDICTED: Crassostrea gigas putative GPI-anch...  28.3    9.7  
+XM_011428320.1  PREDICTED: Crassostrea gigas mesoderm inductio...  28.3    9.7  
+GU207461.1  Crassostrea gigas clone CG_Ba109D11, complete sequ...  28.3    9.7  
+GU207457.1  Crassostrea gigas clone CG_Ba136N15, complete sequ...  28.3    9.7  
+GU207451.1  Crassostrea gigas clone CG_Ba9P2, complete sequence    28.3    9.7  
+GU207438.1  Crassostrea gigas clone CG_Ba89P3, complete sequence   28.3    9.7  
+GU207437.1  Crassostrea gigas clone CG_Ba108I1, complete sequence  28.3    9.7  
+GU207435.1  Crassostrea gigas clone CG_Ba18M12, complete sequence  28.3    9.7  
+GU207432.1  Crassostrea gigas clone CG_Ba173F2, complete sequence  28.3    9.7  
+GU207431.1  Crassostrea gigas clone CG_Ba59K18, complete sequence  28.3    9.7  
+GU207427.1  Crassostrea gigas clone CG_Ba34I8, complete sequence   28.3    9.7  
+GU207410.1  Crassostrea gigas clone CG_Ba159C21, complete sequ...  28.3    9.7  
+
+ALIGNMENTS
+>XM_011423575.1 PREDICTED: Crassostrea gigas uncharacterized LOC105324489 (LOC105324489), 
+transcript variant X2, mRNA
+Length=6729
+
+ Score = 30.1 bits (32),  Expect = 2.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  6     AATAAAATTACCGTTCGCCTA  26
+             |||||||||||| ||| ||||
+Sbjct  1448  AATAAAATTACCTTTCTCCTA  1428
+
+
+>XM_011423574.1 PREDICTED: Crassostrea gigas uncharacterized LOC105324489 (LOC105324489), 
+transcript variant X1, mRNA
+Length=6782
+
+ Score = 30.1 bits (32),  Expect = 2.8
+ Identities = 19/21 (90%), Gaps = 0/21 (0%)
+ Strand=Plus/Minus
+
+Query  6     AATAAAATTACCGTTCGCCTA  26
+             |||||||||||| ||| ||||
+Sbjct  1450  AATAAAATTACCTTTCTCCTA  1430
+
+
+>XM_011424007.1 PREDICTED: Crassostrea gigas cyclic nucleotide-gated cation channel 
+beta-1-like (LOC105324818), mRNA
+Length=4643
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 18/20 (90%), Gaps = 0/20 (0%)
+ Strand=Plus/Plus
+
+Query  15   ACCGTTCGCCTAAAACCTCT  34
+            |||||||  |||||||||||
+Sbjct  409  ACCGTTCAGCTAAAACCTCT  428
+
+
+>XM_011416830.1 PREDICTED: Crassostrea gigas uncharacterized LOC105319327 (LOC105319327), 
+mRNA
+Length=1788
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2    AAATAATAAAATTAC  16
+            |||||||||||||||
+Sbjct  743  AAATAATAAAATTAC  757
+
+
+>XM_011414619.1 PREDICTED: Crassostrea gigas phosphatidylglycerophosphatase and 
+protein-tyrosine phosphatase 1-like (LOC105317851), transcript 
+variant X1, mRNA
+Length=1142
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1    GAAATAATAAAATTA  15
+            |||||||||||||||
+Sbjct  774  GAAATAATAAAATTA  788
+
+
+>XM_011443177.1 PREDICTED: Crassostrea gigas putative GPI-anchored protein PB15E9.01c 
+(LOC105338179), mRNA
+Length=2069
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2     AAATAATAAAATTAC  16
+             |||||||||||||||
+Sbjct  1013  AAATAATAAAATTAC  1027
+
+
+>XM_011428320.1 PREDICTED: Crassostrea gigas mesoderm induction early response 
+protein 1-like (LOC105327709), mRNA
+Length=2769
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  35    AAACACGATTCAAAC  49
+             |||||||||||||||
+Sbjct  1839  AAACACGATTCAAAC  1825
+
+
+>GU207461.1 Crassostrea gigas clone CG_Ba109D11, complete sequence
+Length=143888
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2       AAATAATAAAATTAC  16
+               |||||||||||||||
+Sbjct  110437  AAATAATAAAATTAC  110451
+
+
+>GU207457.1 Crassostrea gigas clone CG_Ba136N15, complete sequence
+Length=149985
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2      AAATAATAAAATTAC  16
+              |||||||||||||||
+Sbjct  84794  AAATAATAAAATTAC  84808
+
+
+>GU207451.1 Crassostrea gigas clone CG_Ba9P2, complete sequence
+Length=158937
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1       GAAATAATAAAATTA  15
+               |||||||||||||||
+Sbjct  114615  GAAATAATAAAATTA  114629
+
+
+>GU207438.1 Crassostrea gigas clone CG_Ba89P3, complete sequence
+Length=138744
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  50013  GAAATAATAAAATTA  50027
+
+
+>GU207437.1 Crassostrea gigas clone CG_Ba108I1, complete sequence
+Length=150510
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  16314  GAAATAATAAAATTA  16328
+
+
+>GU207435.1 Crassostrea gigas clone CG_Ba18M12, complete sequence
+Length=145713
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  97610  GAAATAATAAAATTA  97596
+
+
+>GU207432.1 Crassostrea gigas clone CG_Ba173F2, complete sequence
+Length=173499
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Minus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  79219  GAAATAATAAAATTA  79205
+
+
+>GU207431.1 Crassostrea gigas clone CG_Ba59K18, complete sequence
+Length=163123
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  81748  GAAATAATAAAATTA  81762
+
+
+>GU207427.1 Crassostrea gigas clone CG_Ba34I8, complete sequence
+Length=179557
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  1      GAAATAATAAAATTA  15
+              |||||||||||||||
+Sbjct  98180  GAAATAATAAAATTA  98194
+
+
+>GU207410.1 Crassostrea gigas clone CG_Ba159C21, complete sequence
+Length=188200
+
+ Score = 28.3 bits (30),  Expect = 9.7
+ Identities = 15/15 (100%), Gaps = 0/15 (0%)
+ Strand=Plus/Plus
+
+Query  2      AAATAATAAAATTAC  16
+              |||||||||||||||
+Sbjct  96278  AAATAATAAAATTAC  96292
+
+
+  Database: Nucleotide collection (nt)
+    Posted date:  Nov 6, 2016  9:37 AM
+  Number of letters in database: 127,915,466
+  Number of sequences in database:  52,641
+
+Lambda      K        H
+   0.634    0.408    0.912 
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+Matrix: blastn matrix:2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Sequences: 52641
+Number of Hits to DB: 294
+Number of extensions: 0
+Number of successful extensions: 0
+Number of sequences better than 10: 0
+Number of HSP's better than 10 without gapping: 0
+Number of HSP's gapped: 0
+Number of HSP's successfully gapped: 0
+Length of query: 50
+Length of database: 127915466
+Length adjustment: 24
+Effective length of query: 26
+Effective length of database: 126652082
+Effective search space: 3292954132
+Effective search space used: 3292954132
+A: 0
+X1: 22 (20.1 bits)
+X2: 33 (29.8 bits)
+X3: 110 (99.2 bits)
+S1: 28 (26.5 bits)
+S2: 30 (28.3 bits)
+
+
+
+
