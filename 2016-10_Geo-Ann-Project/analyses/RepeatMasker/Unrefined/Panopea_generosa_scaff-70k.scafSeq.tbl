@@ -1,0 +1,59 @@
+==================================================
+file name: Panopea_generosa_scaff-70k.scafSeq
+sequences:            20
+total length:    1889045 bp  (1807675 bp excl N/X-runs)
+GC level:         32.63 %
+bases masked:      41280 bp ( 2.19 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements           34         5892 bp    0.31 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:               29         5413 bp    0.29 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          1          593 bp    0.03 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B          13         2631 bp    0.14 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:         5          479 bp    0.03 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1         5          479 bp    0.03 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons         36         3626 bp    0.19 %
+   hobo-Activator        1          116 bp    0.01 %
+   Tc1-IS630-Pogo       11         1177 bp    0.06 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger     1           69 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:           25         2826 bp    0.15 %
+
+Total interspersed repeats:       12344 bp    0.65 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              1           57 bp    0.00 %
+Simple repeats:        481        25678 bp    1.36 %
+Low complexity:         62         3392 bp    0.18 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be crassostrea gigas
+RepeatMasker version open-4.0.6 , default mode
+                                   
+run with rmblastn version 2.2.27+
+RepBase Update 20160829, RM database version 20160829
