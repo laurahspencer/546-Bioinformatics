@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/data/Panopea_generosa_scaff-70k.scafSeq" hasGeneTrack="false" hasSequenceTrack="true" locus="scaffold15463:1-94990" path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/P-Generosa_IGV.xml" version="8">
+    <Resources>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Refined/Panopea_generosa_scaff-70k.scafSeq.out.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Unrefined/Panopea_generosa_scaff-70k.scafSeq.out.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-scaff70-miRNA.gff"/>
+    </Resources>
+    <Panel height="532" name="FeaturePanel" width="1168">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,204,0" colorScale="ContinuousColorScale;0.0;4.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Unrefined/Panopea_generosa_scaff-70k.scafSeq.out.gff" name="Transposable Elements (unrefined)" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,153,102" colorScale="ContinuousColorScale;0.0;4.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Refined/Panopea_generosa_scaff-70k.scafSeq.out.gff" name="Transposable Elements (refined)" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,102,102" colorScale="ContinuousColorScale;0.0;304.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-scaff70-miRNA.gff" name="miRNA (un-edited)" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="304.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,204,153" colorScale="ContinuousColorScale;0.0;389.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-transcrv3-blastn-scaff70k-01.gff" name="Transcriptome" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="389.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.011049723756906077"/>
+    <HiddenAttributes>
+        <Attribute name="NAME"/>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+    </HiddenAttributes>
+</Session>
