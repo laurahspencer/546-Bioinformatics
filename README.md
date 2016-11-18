@@ -26,11 +26,20 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
 4. Understand contents of blast output file; learn how to cross-walk the annotated transcriptome against the blast output file to identify protein-sequencing DNA - aka what program(s) to use? 
 5. Re-blast based on feedback; format data, visualize feature track via IGV, combine sequence info with Contig & Scaffold ID's
 6. Merge annotated transcriptome data with my data to connect transcriptome protein/gene ontology data 
-7. ID miRNA and/or lncRNA
-8. Visualize data (TBD)
+7. ID:  
+  * miRNA
+  * transposable elements
+  * Potential methylation sites, aka CpG's
+  * Begin visualizing data via IGV
+8. ID: 
+  * lncRNA
+  * Methylation sites in RNASeq data from Steven 
+  * Possible SNP sites from RNASeq data from Steven
+  * Include gene ontology data in IGV visualization
+  * Clean up miRNA & TE data, if possible
+  * Blast sequences not represented in transcriptome against Uniprot database?
 9. TBD  
-10. TBD
-
+10. Finishing touches
 
 ### Data manipulation workflow
 
