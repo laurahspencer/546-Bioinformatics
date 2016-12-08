@@ -18,7 +18,7 @@ find ../2016-10_Geo-Ann-Project/analyses -name "*.gff" | xargs -I '0' mv '0' "$n
 
 # display confirmation of move
 echo $?
-if [$? -eq 0];
+if [ $? -eq 0 ];
 then
 	echo .gff files moved! && pwd && ls $newdirectory
 else
