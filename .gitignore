@@ -15,6 +15,9 @@
 2016-10_Geo-Ann-Project/data/Geo_Pool_F_GGCTAC_L006_R1_001_val_2.fq
 
 2016-10_Geo-Ann-Project/data/Geo_Pool_F_GGCTAC_L006_R2_001_val_1.fq
+2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie.bam
+2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie.sam
+2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam
 
 2016-10_Geo-Ann-Project/data/Panopea_generosascaff-70k_gonadF_bowtie-sorted.0000.bam
 2016-10_Geo-Ann-Project/data/Panopea_generosascaff-70k_gonadF_bowtie-sorted.0001.bam
