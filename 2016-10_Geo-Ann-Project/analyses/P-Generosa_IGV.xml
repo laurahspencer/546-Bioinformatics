@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/data/Panopea_generosa_scaff-70k.scafSeq" hasGeneTrack="false" hasSequenceTrack="true" locus="scaffold71773:1-103920" path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/P-Generosa_IGV.xml" version="8">
     <Resources>
-        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosa_Scaff-70k-CpG.gff"/>
-        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
-        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Refined/Panopea_generosa_scaff-70k.scafSeq.out.gff"/>
-        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/RepeatMasker/Unrefined/Panopea_generosa_scaff-70k.scafSeq.out.gff"/>
-        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/pgenerosa-scaff70-miRNA.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_Scaff-70k-CpG.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_scaff-70k.scafSeq.out.refined.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_scaff-70k.scafSeq.out.unrefined.gff"/>
+        <Resource path="/Users/shlaura3/Documents/SAFS/FISH_546_Bioinformatics/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-scaff70-miRNA.gff"/>
     </Resources>
     <Panel height="532" name="FeaturePanel" width="1168">
         <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
