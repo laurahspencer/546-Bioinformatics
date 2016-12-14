@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Session genome="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/data/Panopea_generosa_scaff-70k.scafSeq" hasGeneTrack="false" hasSequenceTrack="true" locus="scaffold15463:1-94990" path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Pg_70k_tracks.xml" version="8">
+<Session genome="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/Panopea_generosa_scaff-70k.fasta" hasGeneTrack="false" hasSequenceTrack="true" locus="scaffold15463:1-94990" path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Pg_70k_tracks.xml" version="8">
     <Resources>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_Scaff-70k-CpG.gff"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadF_SNPs.vcf"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_scaff-70k.scafSeq.out.refined.gff"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadM_SNPs.vcf"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-scaff70-miRNA.gff"/>
-        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/Panopea_generosa_Scaff-70k-CpG.gff"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/Pg_70k_gonadF_SNPs.vcf"/>
+        <Resource path="http://owl.fish.washington.edu/generosa/GeoAnn/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/Panopea_generosa_scaff-70k.scafSeq.out.refined.gff"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/Pg_70k_gonadM_SNPs.vcf"/>
+        <Resource path="https://raw.githubusercontent.com/laurahspencer/546-Bioinformatics/master/2016-10_Geo-Ann-Project/results/pgenerosa-scaff70-miRNA.gff"/>
+        <Resource path="http://owl.fish.washington.edu/generosa/GeoAnn/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam"/>
     </Resources>
     <Panel height="253" name="Panel1481595264849" width="1240">
         <Track SQUISHED_ROW_HEIGHT="4" altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorMode="GENOTYPE" colorScale="ContinuousColorScale;0.0;29.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" grouped="false" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadF_SNPs.vcf" name="Female Gonad SNP's" renderer="BASIC_FEATURE" siteColorMode="ALLELE_FRACTION" sortable="false" variantBandHeight="25" visible="true" windowFunction="count">
