@@ -1,6 +1,7 @@
 ## Autumn 2016 FISH 546 Bioinformatics class repository  
 
-This is the repository housing my files pertinent to the Autumn 2016 FISH 546 course on Bioinformatics, taught by Dr. Steven Roberts.  The course syllabus:  
+This is the repository housing my files pertinent to the Autumn 2016 FISH 546 course on Bioinformatics, taught by Dr. Steven Roberts.  The course syllabus:   
+
   "This course will teach core computing skills as well as project specific approaches. Each student will be developing and completing a research project targeting journal article submission by the end of the Quarter. There will be an emphasis on developing habits that increase automation which in turn will facilitate reproducibility. The course primary course platform will be GitHub, with each student creating their own repository."  
   
 ### Housed in this repository are the following directories:  
