@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/data/Panopea_generosa_scaff-70k.scafSeq" hasGeneTrack="false" hasSequenceTrack="true" locus="scaffold15463:1-94990" path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Pg_70k_tracks.xml" version="8">
+    <Resources>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_Scaff-70k-CpG.gff"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadF_SNPs.vcf"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_scaff-70k.scafSeq.out.refined.gff"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-transcrv3-blastn-scaff70k-01.gff"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadM_SNPs.vcf"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-scaff70-miRNA.gff"/>
+        <Resource path="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam"/>
+    </Resources>
+    <Panel height="253" name="Panel1481595264849" width="1240">
+        <Track SQUISHED_ROW_HEIGHT="4" altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorMode="GENOTYPE" colorScale="ContinuousColorScale;0.0;29.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" grouped="false" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadF_SNPs.vcf" name="Female Gonad SNP's" renderer="BASIC_FEATURE" siteColorMode="ALLELE_FRACTION" sortable="false" variantBandHeight="25" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="29.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;28.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam_coverage" name="Female Gonad Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="41075.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam_junctions" name="Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadF_bowtie-sorted.bam" name="Female Gonad Alignment" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="true" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="202" name="Panel1481596314682" width="1240">
+        <Track SQUISHED_ROW_HEIGHT="4" altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorMode="GENOTYPE" colorScale="ContinuousColorScale;0.0;20.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" grouped="false" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Pg_70k_gonadM_SNPs.vcf" name="Male Gonad SNP's" renderer="BASIC_FEATURE" siteColorMode="ALLELE_FRACTION" sortable="false" variantBandHeight="25" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;11.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam_coverage" name="Male Gonad Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="15458.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam_junctions" name="Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/analyses/Panopea_generosascaff-70k_gonadM_bowtie-sorted.bam" name="Male Gonad Alignment" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="true" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="233" name="FeaturePanel" width="1240">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,204,102" colorScale="ContinuousColorScale;0.0;389.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-transcrv3-blastn-scaff70k-01.gff" name="Gonad Transcriptome" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="389.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,51,0" colorScale="ContinuousColorScale;0.0;103.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_Scaff-70k-CpG.gff" name="CpG " renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="103.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="102,102,255" colorScale="ContinuousColorScale;0.0;4.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/Panopea_generosa_scaff-70k.scafSeq.out.refined.gff" name="Transposable Elements" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="255,204,51" colorScale="ContinuousColorScale;0.0;304.0;255,255,255;0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/srlab/546-Bioinformatics/2016-10_Geo-Ann-Project/IGV_track_files/pgenerosa-scaff70-miRNA.gff" name="miRNA" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="304.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <PanelLayout dividerFractions="0.00846262341325811,0.3723554301833568,0.6643159379407616"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
