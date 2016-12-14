@@ -1,4 +1,4 @@
-### Helpful bash scripts used in this project
+### Helpful bash commands used in this project
 **Note: in Jupyter Notebook all commands (except for directory maneuvers) must begin with `!`**
 
 #### Open BLAST on my computer
@@ -35,3 +35,7 @@ nucleotide-nucleotide blast: `/Applications/ncbi-blast-2.5.0+/bin/blastn'
     -db genomefile_db \
     -outfmt 6  \
     -out blastouputfile.tab
+
+#### Using MD5 to compare file contents
+    cd <directory with files in question>
+    md5 *.* >> md5.txt
