@@ -1,12 +1,10 @@
 ### Annotating large scaffolds in _Panopea generosa_ genome
 ##### Project repository for FISH-546-Bioinformatics
-This is the repository housing my files pertinent to the Autumn 2016 FISH 546 course on Bioinformatics, taught by Dr. Steven Roberts.  The course syllabus: 
-  "This course will teach core computing skills as well as project specific approaches. Each student will be developing and completing a research project targeting journal article submission by the end of the Quarter. There will be an emphasis on developing habits that increase automation which in turn will facilitate reproducibility. The course primary course platform will be GitHub, with each student creating their own repository."
 
 #### My class project:
 * **End Goal:** To annotate a small portion of the _Panopea generosa_ (geoduck) genome.  
 * **Background:** Steven & Brent [sampled geoduck in 2015](http://onsnetwork.org/halfshell/2015/08/11/big-day-big-clam/); they sent the samples off to BGI for sequencing, and have since been working on annotating the [gonad transcriptome](http://onsnetwork.org/halfshell/2015/07/09/first-look-at-geoduck-transcriptome/); check out Steven's [blog](http://onsnetwork.org/halfshell/category/panopea-generosa/) for updates.  
-* **Process:** I will utilize the aforementioned annotated gonad transcriptome to annotate a portion of the genome, specifically scaffolds >= 70k base pairs. I will thus blast the transcriptome against the genome, hopefully get some matches, and then cross-reference to identify protein-coding genes. 
+* **Process:** I will utilize the aforementioned annotated gonad transcriptome to annotate a portion of the genome, specifically scaffolds >= 70k base pairs. I will thus blast the transcriptome against the genome, hopefully get some matches, and then cross-reference to identify protein-coding genes. I will then use a series of open-source tools & RNASeq read data to identify candidate miRNA, transposable elements, 
 
 #### Repository Structure:  
 546-Bioinformatics  
