@@ -11,4 +11,4 @@ This is the repository housing my files pertinent to the Autumn 2016 FISH 546 co
 #### Quiz project: [Ostrea lurida differential expression](https://github.com/laurahspencer/546-Bioinformatics/tree/master/Ostrea-Methylation)
   * For more details, click on the link above
 
-!(https://zenodo.org/badge/DOI/10.5281/zenodo.203660.svg)
+![badge](https://zenodo.org/badge/DOI/10.5281/zenodo.203660.svg)
