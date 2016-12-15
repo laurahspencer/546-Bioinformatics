@@ -6,15 +6,19 @@
 * **Background:** Steven & Brent [sampled geoduck in 2015](http://onsnetwork.org/halfshell/2015/08/11/big-day-big-clam/); they sent the samples off to BGI for sequencing, and have since been working on annotating the [gonad transcriptome](http://onsnetwork.org/halfshell/2015/07/09/first-look-at-geoduck-transcriptome/); check out Steven's [blog](http://onsnetwork.org/halfshell/category/panopea-generosa/) for updates.  
 * **Process:** I will utilize the aforementioned annotated gonad transcriptome to annotate a portion of the genome, specifically scaffolds >= 70k base pairs. I will thus blast the transcriptome against the genome, hopefully get some matches, and then cross-reference to identify protein-coding genes. I will then use a series of open-source tools & RNASeq read data to identify candidate miRNA, transposable elements, 
 
-#### Repository Structure:  
-546-Bioinformatics  
-* **.gitignore**: files >100MB are listed in this file, and thus not uploaded to the GitHub cloud.
-* **2016-10_Geo-Ann-Project**: _Files specific to the geoduck genome annotation project_  
-  * **analyses**:  _results from blasting and other data manipulation_
-  * **data**: _raw data, and data subsets_
-  * **images**: all images associated with this project
-  * **Jupyter-Notebooks**: _My primary notebook used for this project is the [01 Geoduck Annotation Project](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/Geoduck%20Annotation%20Project.ipynb); refer to this for project record and replication steps; folder also includes a "Blasting-101" notebook_
-  * **scripts**               ---- _Scripts used in this project; including a helpful reference document_
+#### Repository Structure:
+546-Bioinformatics/2016-10-Geo-Ann-Project/  
+  * **IGV_track-files:** analyses files reformatted specifically for viewing in IGV
+  * **Jupyter-Notebooks**: Notebooks most pertinent to this project are numbered from first (1) to last (9) task performed. The "GeoAnn Playground (0) was my working notebook, and contains intermediate and practice steps. 
+  * **analyses**:  _results from data manipulation; Visitors to this repo should refer mostly to the [results](x) directory.
+  * **data**: _raw data, data subsets, indexes, and databases. 
+  * **images**: all images associated with this project, most used in Jupyter Notebooks.
+  * **results**: the products of this project: data and track files. See the [results README]() file for details.
+  * **scripts** _Scripts used in this project; including a helpful reference document_
+  
+  
+**Note: a **.gitignore** file for this repository is located in the parent diretory, "546-Bioinformatics." The .gitignore lists files >100MB, and thus not uploaded to the GitHub cloud. Pertinent .bam files are located in 
+
 
 #### Project Timeline, by week #  
 
