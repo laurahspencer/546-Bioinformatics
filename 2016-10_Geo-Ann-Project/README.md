@@ -8,17 +8,24 @@
 
 #### Repository Structure:
 546-Bioinformatics/2016-10-Geo-Ann-Project/  
-  * **IGV_track-files:** _analyses files reformatted specifically for viewing in IGV_  
+  * **IGV_track-files:** Analyses files reformatted specifically for viewing in IGV  
   * **Jupyter-Notebooks**: Notebooks most pertinent to this project are numbered from first (1) to last (9) task performed. The "GeoAnn Playground (0) was my working notebook, and contains intermediate and practice steps._  
-  * **analyses**:  _results from data manipulation; Visitors to this repo should refer mostly to the [results](x) directory._  
-  * **data**: _raw data, data subsets, indexes, and databases._  
-  * **images**: all images associated with this project, most used in Jupyter Notebooks._  
-  * **results**: the products of this project: data and track files. See the [results README]() file for details._  
-  * **scripts** _Scripts used in this project; including a helpful reference document_  
+  * **analyses**: Results from data manipulation; Visitors to this repo should refer mostly to the [results](x) directory.  
+  * **data**: Raw data, data subsets, indexes, and databases.  
+  * **images**: All images associated with this project, most used in Jupyter Notebooks.   
+  * **results**: The products of this project: data and track files. See the [results README]() file for details.  
+  * **scripts** Scripts used in this project; including a helpful reference document  
   
-  
-**Note: a **.gitignore** file for this repository is located in the parent diretory, "546-Bioinformatics." The .gitignore lists files >100MB, and thus not uploaded to the GitHub cloud. Pertinent .bam files are located in 
+**NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](x) for file names/types. 
 
+**Source Data:**
+  * [Geoduck genome data Folder](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/); Sequence File is [Panopea_generosa.scafSeq](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/Panopea_generosa.scafSeq)
+  * RNASeq fastq files are two paired-end libraries from one female gonad & one male gonad. See [geoduck data repo](https://github.com/sr320/paper-pano-go/wiki/Quality-trim-output#female) for sequencing details. 
+    - [Female1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_F_GGCTAC_L006_R2_001_val_1.fq)
+    - [Female2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_F_GGCTAC_L006_R1_001_val_2.fq)
+    - [Male1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R2_001_val_1.fq)
+    - [Male2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R1_001_val_2.fq)
+   
 
 #### Project Timeline, by week #  
 
