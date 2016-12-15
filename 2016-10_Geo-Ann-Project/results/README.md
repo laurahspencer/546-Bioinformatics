@@ -24,13 +24,19 @@
 
 ## For a glimpse of the results, check out the below IGV images of a few scaffolds:
 
+### All scaffold view: 
+
 ![All scaffolds view](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-formatted-tracks.png?raw=true)
+
+### Scaffold 4463, zoomed
 
 ![Scaff 4463](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-Scaff4463.png?raw=true)
 
+### Scaffold 32578, zoomed
+
 ![Scaff 32578](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-Scaff32578.png?raw=true)
 
-## Discussion 
+## Quick discussion 
 
 In approaching this project I did not have a research question that needed answering, rather my goal was to characterize genetic markers for _P. generosa_. As such, the results section does not include a data analysis.  Next steps are likely the following: 
   * Determine germline DNA methylation estimate in scaffolds via CpG O/E analysis.
