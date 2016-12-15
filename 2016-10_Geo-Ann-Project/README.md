@@ -30,7 +30,7 @@
     - [Male1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R2_001_val_1.fq)
     - [Male2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R1_001_val_2.fq)
    
-#### Project Timeline, by week #  
+#### Project Timeline, by week #; Tasks in bold are linked to the associated Jupyter notebooks 
 
 1. Learned basics of command-line operation, data mangement & manipulation & project tracking;  
 2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identified project and obtained data;
