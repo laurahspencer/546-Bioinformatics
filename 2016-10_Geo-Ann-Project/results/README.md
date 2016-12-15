@@ -1,5 +1,5 @@
-#### This directory contains _Panopea generosa_ genome annotation files. They are numerically labeled, corresponding to the Jupyter Notebook recording the steps taken to create these files.  Below is a list of the files categorized by Jupyter Notebook #; 
-Notice that files from Notebook 07 are housed in Owl.
+#### This directory contains _Panopea generosa_ genome annotation files. They are numerically labeled, corresponding to the Jupyter Notebook recording the steps taken to create these files.  Below is a list of the files categorized by Jupyter Notebook #.
+**Notice that files from Notebook 07 are housed in Owl.**
 
 
 | Jupyter Notebook                                                                                                                                                                                                                                     | Associated Results Files                                                                                                                                                                                       | File Description                                                                                                                                      |
