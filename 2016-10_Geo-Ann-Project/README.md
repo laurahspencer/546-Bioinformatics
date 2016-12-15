@@ -57,3 +57,8 @@
   * Elaborated in README files
   * Created Results folder with pertinent files, and upload large files to Owl
   * [Prepared finalized IGV session](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/09%20Visualizing%20with%20IGV%20.ipynb) that anyone can open
+
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
