@@ -13,7 +13,7 @@
   * **analyses**: Results from data manipulation; Visitors to this repo should refer mostly to the [results](x) directory.  
   * **data**: Raw data, data subsets, indexes, and databases.  
   * **images**: All images associated with this project, most used in Jupyter Notebooks.   
-  * **results**: The products of this project: data and track files. See the [results README]() file for details.  
+  * **results**: The products of this project: data and track files. See the [results README](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/README.md) file for details.  
   * **scripts** Scripts used in this project; including a helpful reference document  
   
 ### **NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](https://github.com/laurahspencer/546-Bioinformatics/blob/master/.gitignore), and as such are housed on [Owl](http://owl.fish.washington.edu/generosa/GeoAnn/) for file names/types.  
