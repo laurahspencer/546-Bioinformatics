@@ -20,3 +20,21 @@
 | [08 Calling_SNPS_mpileup.ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/08%20Calling_SNPS_mpileup.ipynb)                                                                           | [08-Pg_70k_gonadF_SNPs.vcf](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/08-Pg_70k_gonadF_SNPs.vcf)                                                         | Indexed files with SNP locations in the **female** gonads; output from `samtools | bcftools`                                                          |
 |                                                                                                                                                                                                                                                      | [08-Pg_70k_gonadM_SNPs.vcf](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/08-Pg_70k_gonadM_SNPs.vcf)                                                         | Indexed files with SNP locations in the **female** gonads; output from `samtools | bcftools`                                                          |
 | [09 Visualizing with IGV .ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/09%20Visualizing%20with%20IGV%20.ipynb)                                                                   | [09-Pg_70k_tracks.xml](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/09-Pg_70k_tracks.xml)                                                                   | .xml file with IGV Session data; open this file through the IGV software, and tracks will load via URLs. No need to download files.                   |
+
+
+## For a glimpse of the results, check out the below IGV images of a few scaffolds:
+
+![All scaffolds view]()
+
+![Scaff 4463]()
+
+![Scaff 32578]()
+
+## Discussion 
+
+In approaching this project I did not have a research question that needed answering, rather my goal was to characterize genetic markers for _P. generosa_. As such, the results section does not include a data analysis.  Next steps are likely the following: 
+  * Determine germline DNA methylation estimate in scaffolds via CpG O/E analysis.
+  * Identify candidate lncRNA regions
+  * Experiment with other databases to identify miRNA, and compare results to those in this project; database used was miRBase, and I'm interested to know how the results differ with other dtabases.
+  * Experiment with other programs to identify transposable elements, and compare results to those in this project; program used in this project was RepeatMasker.
+  * Develop a thorough QC and screening workflow; as my comfort with these data types increases, I will be able to confidently edit out low e-value hits, and identiy errors/anomalies.
