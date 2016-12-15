@@ -18,42 +18,46 @@
   
 **NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](x) for file names/types. 
 
-**Source Data:**
+**Source Data:** I did not prepare any of the libraries or sequence the DNA/RNA used in this project; rather, I worked with existing geoduck data from Steven et al. Source data files are listed below, pulled from the [paper-pano-go](https://github.com/sr320/paper-pano-go) repo, and Owl, the Roberts Lab's file server. 
   * [Geoduck genome data Folder](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/); Sequence File is [Panopea_generosa.scafSeq](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/Panopea_generosa.scafSeq)
-  * RNASeq fastq files are two paired-end libraries from one female gonad & one male gonad. See [geoduck data repo](https://github.com/sr320/paper-pano-go/wiki/Quality-trim-output#female) for sequencing details. 
+  * The transcriptome was sequenced from geoduck gonad tissue
+    - [Transcriptome fasta file](https://github.com/sr320/paper-pano-go/raw/master/data-results/Geoduck-transcriptome-v3.fa.zip).
+    - [Annotated transcriptome file](https://github.com/sr320/paper-pano-go/blob/master/data-results/Geoduck-transcriptome-v3.fa.zip) with Uniprot protein information. 
+  * RNASeq fastq files are two paired-end libraries from one female gonad & one male gonad. See [geoduck data repo](https://github.com/sr320/paper-pano-go/wiki/Quality-trim-output#female) & [library preparation methods](https://github.com/sr320/paper-pano-go/blob/master/manuscript/methods/00-rna-seq-libraries.md) for sequencing details. 
     - [Female1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_F_GGCTAC_L006_R2_001_val_1.fq)
     - [Female2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_F_GGCTAC_L006_R1_001_val_2.fq)
     - [Male1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R2_001_val_1.fq)
     - [Male2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R1_001_val_2.fq)
+  * 
    
-
 #### Project Timeline, by week #  
 
-1. Learn basics of command-line operation, data mangement & manipulation & project tracking;  
-2. Get comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
-3. Begin working with data; use blast to compare transcriptome to genome; end goal -> have a blast output file
-4. Understand contents of blast output file; learn how to cross-walk the annotated transcriptome against the blast output file to identify protein-sequencing DNA - aka what program(s) to use? 
-5. Re-blast based on feedback; format data, visualize feature track via IGV, combine sequence info with Contig & Scaffold ID's
-6. Merge annotated transcriptome data with my data to connect transcriptome protein/gene ontology data 
-7. ID:  
-  * miRNA
-  * transposable elements
-8. ID: 
-  * Potential Methylation sites via finding CpGs    
-  * Begin visualizing data via IGV
-9. ID:
-  * Align RNASeq reads (from Steven) to scaffolds
-  * ID SNP sites from aligned reads 
-  * Reformat merged transcriptome/genome file for usability
-10. Finalize:
+1. Learned basics of command-line operation, data mangement & manipulation & project tracking;  
+2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
+3. Begin working with data
+  * Used [NCBI's `blast`](https://blast.ncbi.nlm.nih.gov/Blast.cgi) program to align transcriptome to genome
+4. Explored contents of blast output file
+  * learned how to cross-walk the annotated transcriptome against the blast output file
+5. Re-blasted based on feedback; formatted data, combined sequence info with Contig & Scaffold ID's
+6. Merged _annotated_ transcriptome data with my data to connect transcriptome protein/gene ontology data 
+7. Identified:  
+  * **miRNA** - via [miRBase](http://www.mirbase.org/); I downloaded the [hairpin sequences](http://www.mirbase.org/ftp.shtml): "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript (termed mir in the database), with information on the location and sequence of the mature miRNA sequence (termed miR). Both hairpin and mature sequences are available for searching and browsing, and entries can also be retrieved by name, keyword, references and annotation. All sequence and annotation data are also available for download." - miRBase webiste.
+  * **transposable elements** - via [RepeatMasker](https://seanb80.github.io/blog/2016/11/04/Installing-RepeatMasker). "RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences. The output of the program is a detailed annotation of the repeats that are present in the query sequence as well as a modified version of the query sequence in which all the annotated repeats have been masked (default: replaced by Ns)." -RepeatMasker website
+8. Identified: 
+  * **Candidate Methylation sites (CpGs)** - via [Galaxy's](https://usegalaxy.org/) EMBOSS fuzznuc tool. See []()
+  * Began visualizing data via [Integrative Genomics Viewer](https://software.broadinstitute.org/software/igv/home) (IGV)
+9. Incorporated RNASeq data 
+  * **Aligned RNASeq reads (from Steven) to scaffolds** - via [`bowtie2`](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/) & [`samtools`](https://sourceforge.net/projects/samtools/files/samtools/1.3.1/)
+  * **Called SNP sites** - via `samtools` & [`bcftools`](https://samtools.github.io/bcftools/bcftools.html) 
+  * Reformatted merged transcriptome/genome file for usability
+10. **Finalized:**
   * Clean up notebooks
   * Comment out all notebooks 
-  * 
+  * Elaborate in README files
+  * Create Results folder with pertinent files, and upload large files to Owl
+  * Prepare IGV session that anyone can open
 
-
-10. Finishing touches
-
-### Data manipulation workflow
+### Outline of ata manipulation workflow
 
 **Pare down genome, identify locations that match transcriptome sequences:**  
 --> Subset genome for >70k bp scaffolds  
