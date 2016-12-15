@@ -9,7 +9,7 @@
 #### Repository Structure:
 546-Bioinformatics/2016-10-Geo-Ann-Project/  
   * **IGV_track-files:** Analyses files reformatted specifically for viewing in IGV  
-  * **Jupyter-Notebooks**: Notebooks most pertinent to this project are numbered from first (1) to last (9) task performed. The "GeoAnn Playground (0) was my working notebook, and contains intermediate and practice steps._  
+  * **Jupyter-Notebooks**: Notebooks most pertinent to this project are numbered from first (1) to last (9) task performed. The "GeoAnn Playground (0) was my working notebook, and contains intermediate and practice steps.  
   * **analyses**: Results from data manipulation; Visitors to this repo should refer mostly to the [results](x) directory.  
   * **data**: Raw data, data subsets, indexes, and databases.  
   * **images**: All images associated with this project, most used in Jupyter Notebooks.   
