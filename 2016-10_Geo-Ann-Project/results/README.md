@@ -24,11 +24,11 @@
 
 ## For a glimpse of the results, check out the below IGV images of a few scaffolds:
 
-![All scaffolds view]()
+![All scaffolds view](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-formatted-tracks.png?raw=true)
 
-![Scaff 4463]()
+![Scaff 4463](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-Scaff4463.png?raw=true)
 
-![Scaff 32578]()
+![Scaff 32578](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-Scaff32578.png?raw=true)
 
 ## Discussion 
 
