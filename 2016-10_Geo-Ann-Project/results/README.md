@@ -1,8 +1,5 @@
 #### This directory containe _Panopea generosa_ genome annotation files. They are numerically labeled, corresponding to the Jupyter Notebook recording the steps taken to create these files.  Below is a list of the files categorized by Jupyter Notebook #; you'll note that large files are housed in Owl.
 
-Comparing sea star & geoduck transcriptomes.ipynb
-Quiz_Script.ipynb
-
 [01 Extracting >70k Scaffolds.ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Extracting%20%3E70k%20Scaffolds.ipynb):
  - 01-Panopea_generosa_scaff-70k.fasta 
  - 01-Panopea_generosa_scaff-70k.fasta.fai
