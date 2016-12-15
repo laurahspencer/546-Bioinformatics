@@ -1,12 +1,12 @@
-### Annotating large scaffolds in _Panopea generosa_ genome
-##### Project repository for FISH-546-Bioinformatics
+## Annotating large scaffolds in _Panopea generosa_ genome
+#### _Project repository for FISH-546-Bioinformatics_
 
-#### My class project:
+### My class project:
 * **End Goal:** To annotate large scaffolds of the _Panopea generosa_ (geoduck) genome.  
 * **Background:** Steven & Brent [sampled geoduck in 2015](http://onsnetwork.org/halfshell/2015/08/11/big-day-big-clam/); they sent the samples off to BGI for sequencing, and have since been working on annotating the [gonad transcriptome](http://onsnetwork.org/halfshell/2015/07/09/first-look-at-geoduck-transcriptome/); check out Steven's [blog](http://onsnetwork.org/halfshell/category/panopea-generosa/) for updates.  
 * **Process:** I will utilize the aforementioned annotated gonad transcriptome to annotate a portion of the genome, specifically scaffolds >= 70k base pairs. I will thus blast the transcriptome against the genome, hopefully get some matches, and then cross-reference to identify protein-coding genes. I will then use a series of open-source tools to identify candidate miRNA, transposable elements & CpG sites, and align RNASeq read data to the scaffolds & call SNPs. Integrative Genomic Viewer (IGV) will be used to visualize results.
 
-#### Repository Structure:
+### Repository Structure:
 546-Bioinformatics/2016-10-Geo-Ann-Project/  
   * **IGV_track-files:** Analyses files reformatted specifically for viewing in IGV  
   * **Jupyter-Notebooks**: Notebooks most pertinent to this project are numbered from first (1) to last (9) task performed. The "GeoAnn Playground (0) was my working notebook, and contains intermediate and practice steps.  
@@ -16,9 +16,9 @@
   * **results**: The products of this project: data and track files. See the [results README]() file for details.  
   * **scripts** Scripts used in this project; including a helpful reference document  
   
-**NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](x) for file names/types. 
+### **NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](https://github.com/laurahspencer/546-Bioinformatics/blob/master/.gitignore) for file names/types. 
 
-**Source Data:** I did not prepare any of the libraries or sequence the DNA/RNA used in this project; rather, I worked with existing geoduck data from Steven et al. Source data files are listed below, pulled from the [paper-pano-go](https://github.com/sr320/paper-pano-go) repo, and Owl, the Roberts Lab's file server. 
+### **Source Data:** I did not prepare any of the libraries or sequence the DNA/RNA used in this project; rather, I worked with existing geoduck data from Steven et al. Source data files are listed below, pulled from the [paper-pano-go](https://github.com/sr320/paper-pano-go) repo, and Owl, the Roberts Lab's file server. 
   * [Geoduck genome data Folder](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/); Sequence File is [Panopea_generosa.scafSeq](http://owl.fish.washington.edu/P_generosa_genome_assemblies_BGI/20160512/Panopea_generosa.scafSeq)
   * The transcriptome was sequenced from geoduck gonad tissue
     - [Transcriptome fasta file](https://github.com/sr320/paper-pano-go/raw/master/data-results/Geoduck-transcriptome-v3.fa.zip).
@@ -28,7 +28,6 @@
     - [Female2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_F_GGCTAC_L006_R1_001_val_2.fq)
     - [Male1](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R2_001_val_1.fq)
     - [Male2](http://owl.fish.washington.edu/halfshell/bu-data-genomic/tentacle/Geoduck_v3/Geo_Pool_M_CTTGTA_L006_R1_001_val_2.fq)
-  * 
    
 #### Project Timeline, by week #  
 
