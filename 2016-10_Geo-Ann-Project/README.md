@@ -33,16 +33,12 @@
 #### Project Timeline, by week #  
 
 1. Learned basics of command-line operation, data mangement & manipulation & project tracking;  
-2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
-3. Begin working with data
-  * 
-```diff
-- [Extracted a subset of the genome](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Extracting%20%3E70k%20Scaffolds.ipynb)
-``` 
-with only >70k bp scaffolds 
+2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identified project and obtained data;
+3. Began working with data
+  * [Extracted a subset of the genome](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Extracting%20%3E70k%20Scaffolds.ipynb) with only >70k bp scaffolds 
   * [Blasted](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb): used [NCBI's `blast`](https://blast.ncbi.nlm.nih.gov/Blast.cgi) program to align transcriptome to genome
 4. Explored contents of blast output file
-  * learned how to cross-walk the annotated transcriptome against the blast output file
+  * Learned how to cross-walk the annotated transcriptome against the blast output file
 5. [Re-blasted](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb) based on feedback; formatted data, combined sequence info with Contig & Scaffold ID's
 6. [Merged _annotated_ transcriptome data with my data](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/03%20Merging%20blast%20results%20with%20transcriptome%20GO%20details.ipynb) to connect transcriptome protein/gene ontology data; used via [Galaxy's](https://usegalaxy.org/) (this could easily be done via unix commands, but I wasn't at that point yet)
 7. Identified:  
@@ -55,14 +51,9 @@ with only >70k bp scaffolds
   * [**Aligned RNASeq reads (from Steven) to scaffolds**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/07%20Bowtie2_map_reads.ipynb) - via [`bowtie2`](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/) & [`samtools`](https://sourceforge.net/projects/samtools/files/samtools/1.3.1/)
   * [**Called SNP sites**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/08%20Calling_SNPS_mpileup.ipynb) - via `samtools` & [`bcftools`](https://samtools.github.io/bcftools/bcftools.html) 
   * Reformatted merged transcriptome/genome file for usability
-10. **Finalized:**
+10. Finalized:
   * Cleaned up notebooks
   * Commented out all notebooks 
   * Elaborated in README files
   * Created Results folder with pertinent files, and upload large files to Owl
   * [Prepared finalized IGV session](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/09%20Visualizing%20with%20IGV%20.ipynb) that anyone can open
-
-```diff
-+ this will be highlighted in green
-- this will be highlighted in red
-```
