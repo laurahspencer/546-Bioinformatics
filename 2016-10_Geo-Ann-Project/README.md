@@ -35,40 +35,25 @@
 1. Learned basics of command-line operation, data mangement & manipulation & project tracking;  
 2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
 3. Begin working with data
-  * Used [NCBI's `blast`](https://blast.ncbi.nlm.nih.gov/Blast.cgi) program to align transcriptome to genome
+  * [Extracted a subset of the genome](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Extracting%20%3E70k%20Scaffolds.ipynb) with only >70k bp scaffolds 
+  * [Blasted](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb): used [NCBI's `blast`](https://blast.ncbi.nlm.nih.gov/Blast.cgi) program to align transcriptome to genome
 4. Explored contents of blast output file
   * learned how to cross-walk the annotated transcriptome against the blast output file
-5. Re-blasted based on feedback; formatted data, combined sequence info with Contig & Scaffold ID's
-6. Merged _annotated_ transcriptome data with my data to connect transcriptome protein/gene ontology data 
+5. [Re-blasted](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb) based on feedback; formatted data, combined sequence info with Contig & Scaffold ID's
+6. [Merged _annotated_ transcriptome data with my data](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/03%20Merging%20blast%20results%20with%20transcriptome%20GO%20details.ipynb) to connect transcriptome protein/gene ontology data; used via [Galaxy's](https://usegalaxy.org/) (this could easily be done via unix commands, but I wasn't at that point yet)
 7. Identified:  
-  * **miRNA** - via [miRBase](http://www.mirbase.org/); I downloaded the [hairpin sequences](http://www.mirbase.org/ftp.shtml): "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript (termed mir in the database), with information on the location and sequence of the mature miRNA sequence (termed miR). Both hairpin and mature sequences are available for searching and browsing, and entries can also be retrieved by name, keyword, references and annotation. All sequence and annotation data are also available for download." - miRBase webiste.
-  * **transposable elements** - via [RepeatMasker](https://seanb80.github.io/blog/2016/11/04/Installing-RepeatMasker). "RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences. The output of the program is a detailed annotation of the repeats that are present in the query sequence as well as a modified version of the query sequence in which all the annotated repeats have been masked (default: replaced by Ns)." -RepeatMasker website
+   * [**transposable elements**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/04%20Finding%20Transposable%20Elements.ipynb) - via [RepeatMasker](https://seanb80.github.io/blog/2016/11/04/Installing-RepeatMasker). "RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences. The output of the program is a detailed annotation of the repeats that are present in the query sequence as well as a modified version of the query sequence in which all the annotated repeats have been masked (default: replaced by Ns)." -RepeatMasker website
+    * [**Candidate Methylation sites (CpGs)**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/05%20Finding%20candidate%20methylation%20sites.ipynb) - via [Galaxy's](https://usegalaxy.org/) EMBOSS fuzznuc tool.
 8. Identified: 
-  * **Candidate Methylation sites (CpGs)** - via [Galaxy's](https://usegalaxy.org/) EMBOSS fuzznuc tool. See []()
+  * [**miRNA**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/06%20Finding%20candidate%20miRNA.ipynb) - via [miRBase](http://www.mirbase.org/); I downloaded the [hairpin sequences](http://www.mirbase.org/ftp.shtml): "The miRBase database is a searchable database of published miRNA sequences and annotation. Each entry in the miRBase Sequence database represents a predicted hairpin portion of a miRNA transcript (termed mir in the database), with information on the location and sequence of the mature miRNA sequence (termed miR). Both hairpin and mature sequences are available for searching and browsing, and entries can also be retrieved by name, keyword, references and annotation. All sequence and annotation data are also available for download." - miRBase webiste.
   * Began visualizing data via [Integrative Genomics Viewer](https://software.broadinstitute.org/software/igv/home) (IGV)
 9. Incorporated RNASeq data 
-  * **Aligned RNASeq reads (from Steven) to scaffolds** - via [`bowtie2`](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/) & [`samtools`](https://sourceforge.net/projects/samtools/files/samtools/1.3.1/)
-  * **Called SNP sites** - via `samtools` & [`bcftools`](https://samtools.github.io/bcftools/bcftools.html) 
+  * [**Aligned RNASeq reads (from Steven) to scaffolds**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/07%20Bowtie2_map_reads.ipynb) - via [`bowtie2`](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.9/) & [`samtools`](https://sourceforge.net/projects/samtools/files/samtools/1.3.1/)
+  * [**Called SNP sites**](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/08%20Calling_SNPS_mpileup.ipynb) - via `samtools` & [`bcftools`](https://samtools.github.io/bcftools/bcftools.html) 
   * Reformatted merged transcriptome/genome file for usability
 10. **Finalized:**
-  * Clean up notebooks
-  * Comment out all notebooks 
-  * Elaborate in README files
-  * Create Results folder with pertinent files, and upload large files to Owl
-  * Prepare IGV session that anyone can open
-
-### Outline of ata manipulation workflow
-
-**Pare down genome, identify locations that match transcriptome sequences:**  
---> Subset genome for >70k bp scaffolds  
-----> Blast transcriptome against genome scaffolds  
-------> **Product: tab file showing where transcriptome sequences match sequences in the >70k scaffolds, denoted by scaffold ID &     contig ID (no bp or protein ID info)**
-
-**Merge all data:**  
---> reformat genome file to tabular  
-----> merge genome file with blastn results; only keep rows with common contigs  
-------> Connect contig ID's OR bp sequences with known coding proteins identifed in annotated transcriptome   
---------> Blast unknown sequences against UniProt database to try to ID genes not found in the transcriptome  
-----------> Identify miRNA sequences  
-------------> Identify lncRNA sequences   
---------------> Product Goal: data file containing Scaffold ID +  Contig ID + BP seq + Uniprot ID + Animal Source + Gene Ontology Data
+  * Cleaned up notebooks
+  * Commented out all notebooks 
+  * Elaborated in README files
+  * Created Results folder with pertinent files, and upload large files to Owl
+  * [Prepared finalized IGV session](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/09%20Visualizing%20with%20IGV%20.ipynb) that anyone can open
