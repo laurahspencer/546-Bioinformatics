@@ -21,6 +21,7 @@
 |                                                                                                                                                                                                                                                      | [08-Pg_70k_gonadM_SNPs.vcf](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/08-Pg_70k_gonadM_SNPs.vcf)                                                         | Indexed files with SNP locations in the **female** gonads; output from `samtools | bcftools`                                                          |
 | [09 Visualizing with IGV .ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/09%20Visualizing%20with%20IGV%20.ipynb)                                                                   | [09-Pg_70k_tracks.xml](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/results/09-Pg_70k_tracks.xml)                                                                   | .xml file with IGV Session data; open this file through the IGV software, and tracks will load via URLs. No need to download files.                   |
 
+---
 
 ## For a glimpse of the results, check out the below IGV images of a few scaffolds:
 
@@ -35,6 +36,8 @@
 ### Scaffold 32578, zoomed
 
 ![Scaff 32578](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/images/2016-12-14_IGV-Scaff32578.png?raw=true)
+
+---
 
 ## Quick discussion 
 
