@@ -35,9 +35,11 @@
 1. Learned basics of command-line operation, data mangement & manipulation & project tracking;  
 2. Became more comfortable with common bioinformatics tools, such as GitHub & Jupyter Notebook; identify project and obtain data;
 3. Begin working with data
-  * ```diff
+  * 
+```diff
 - Extracted a subset of the genome](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/01%20Extracting%20%3E70k%20Scaffolds.ipynb)
-``` with only >70k bp scaffolds 
+``` 
+with only >70k bp scaffolds 
   * [Blasted](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb): used [NCBI's `blast`](https://blast.ncbi.nlm.nih.gov/Blast.cgi) program to align transcriptome to genome
 4. Explored contents of blast output file
   * learned how to cross-walk the annotated transcriptome against the blast output file
