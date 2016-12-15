@@ -16,7 +16,7 @@
   * **results**: The products of this project: data and track files. See the [results README]() file for details.  
   * **scripts** Scripts used in this project; including a helpful reference document  
   
-### **NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](https://github.com/laurahspencer/546-Bioinformatics/blob/master/.gitignore) for file names/types.**  
+### **NOTE**: This project involved a handful of files too large to house in GitHub (see [.gitignore file for this repository](https://github.com/laurahspencer/546-Bioinformatics/blob/master/.gitignore), and as such are housed on [Owl](http://owl.fish.washington.edu/generosa/GeoAnn/) for file names/types.  
 
 ### **Source Data:** 
 **I did not prepare any of the libraries or sequence the DNA/RNA used in this project; rather, I worked with existing geoduck data from Steven et al. Source data files are listed below, pulled from the [paper-pano-go](https://github.com/sr320/paper-pano-go) repo, and Owl, the Roberts Lab's file server.**  
