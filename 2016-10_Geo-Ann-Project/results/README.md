@@ -7,7 +7,7 @@ Quiz_Script.ipynb
  - 01-Panopea_generosa_scaff-70k.fasta 
  - 01-Panopea_generosa_scaff-70k.fasta.fai
 
-[02 Blasting Transcriptome vs. Scaffolds.ipynb]((https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb)
+[02 Blasting Transcriptome vs. Scaffolds.ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/02%20Blasting%20Transcriptome%20vs.%20Scaffolds.ipynb)
  - 02-pgenerosa-transcrv3-blastn-scaff70k-01.gff
 
 [03 Merging blast results with transcriptome GO details.ipynb](https://github.com/laurahspencer/546-Bioinformatics/blob/master/2016-10_Geo-Ann-Project/Jupyter-Notebooks/03%20Merging%20blast%20results%20with%20transcriptome%20GO%20details.ipynb)
